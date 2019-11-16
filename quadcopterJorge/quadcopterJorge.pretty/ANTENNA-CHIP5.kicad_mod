@@ -1,0 +1,13 @@
+(module ANTENNA-CHIP5 (layer F.Cu) (tedit 5DCE6AFB)
+  (fp_text reference A1 (at 0.2 -2.9) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_text value ANTENNA2SMD5 (at 0.9 2.4) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)))
+  )
+  (fp_poly (pts (xy -4 -1.4) (xy 4 -1.4) (xy 4 1.4) (xy -4 1.4)) (layer F.CrtYd) (width 0.1))
+  (pad NC smd rect (at 3.302 0 180) (size 1.016 2.54) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+  (pad FEED smd rect (at -3.302 0 180) (size 1.016 2.54) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+)

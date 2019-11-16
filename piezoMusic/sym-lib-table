@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name piezoMusic-eagle-import)(type Legacy)(uri ${KIPRJMOD}/piezoMusic-eagle-import.lib)(options "")(descr ""))
+)

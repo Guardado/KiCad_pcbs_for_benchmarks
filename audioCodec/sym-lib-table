@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name audioCodec-eagle-import)(type Legacy)(uri ${KIPRJMOD}/audioCodec-eagle-import.lib)(options "")(descr ""))
+)

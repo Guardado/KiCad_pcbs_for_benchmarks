@@ -1,0 +1,18 @@
+(module TACTILE_SWITCH_SMD_6.2MM_TALL (layer F.Cu) (tedit 5DCE32F0)
+  (descr "<h3>Momentary Switch (Pushbutton) - SPST - SMD, 6.2mm Square</h3>\n<p>Normally-open (NO) SPST momentary switches (buttons, pushbuttons).</p>\n<p><a href=\"http://www.apem.com/files/apem/brochures/ADTS6-ADTSM-KTSC6.pdf\">Datasheet</a> (ADTSM63NVTR)</p>")
+  (fp_text reference S2 (at 0 -4.8) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_text value MOMENTARY-SWITCH-SPST-SMD-6.2MM-TALL (at 19.6 3.6) (layer F.SilkS) hide
+    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
+  )
+  (fp_poly (pts (xy -4.9 -3) (xy 4.9 -3) (xy 4.9 3) (xy -4.9 3)) (layer F.CrtYd) (width 0.1))
+  (pad A1 smd rect (at -3.975 2.25 90) (size 1.3 1.55) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+  (pad A2 smd rect (at 3.975 2.25 90) (size 1.3 1.55) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+  (pad B1 smd rect (at -3.975 -2.25 90) (size 1.3 1.55) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+  (pad B2 smd rect (at 3.975 -2.25 90) (size 1.3 1.55) (layers F.Cu F.Paste F.Mask)
+    (solder_mask_margin 0.1016))
+)
